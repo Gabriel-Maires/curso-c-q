@@ -7,7 +7,7 @@ int main() {
     int idade;
 
     printf("Olá Seja bem-vindo! Por gentileza, digite o seu nome: ");
-    fgets(name, sizeof(nome), stdin);
+    fgets(nome, sizeof(nome), stdin);
     printf("Maravilha! Agora, por gentileza, digite sua idade: ");
     scanf("%d", &idade);
 
